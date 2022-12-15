@@ -1,0 +1,119 @@
+.principal-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.card-container {
+  max-width: 400px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color:darkorange;
+  border-radius: 15px;
+  gap: 1rem;
+}
+
+.title-card {
+  
+  display: flex;
+  gap: .5rem;
+  justify-content: center;
+  
+}
+
+.title-card span {
+  font-size: 100px;
+  padding-left: 1rem;
+  padding-top: .5rem;
+}
+
+.title-card p {
+  padding-top: 2rem;
+  padding-right: 1rem;
+}
+
+.author-card {
+  display: flex;
+  justify-content: flex-end;
+ padding-right: 2.2rem;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    justify-content: space-between;
+}
+
+.btn-container button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: .1rem;
+  background-color: rgb(182, 177, 210);
+  cursor: pointer;
+  box-shadow: 0px 1px 15px black;
+}
+
+.card-container.white {
+  color: white;
+  background-color: darkolivegreen;
+}
+
+button.white {
+  color: white;
+  background-color: darkolivegreen;
+}
+
+.card-container.blue {
+  color:blue;
+  background-color: darksalmon;
+}
+
+button.blue {
+  color:blue;
+  background-color: darksalmon;
+}
+
+.card-container.yelow {
+  color: yellow;
+  background-color: darkslateblue;
+}
+
+button.yelow {
+  color: yellow;
+  background-color: darkslateblue;
+}
+
+.card-container.brown {
+  color: brown;
+  background-color:darkcyan;
+}
+
+button.brown {
+  color: brown;
+  background-color:darkcyan;
+}
+
+.title-general-container h1 {
+  color:darkcyan;
+  
+}
+
+.number-quote-container {
+  
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 3rem;
+  font-size: 15px;
+}
