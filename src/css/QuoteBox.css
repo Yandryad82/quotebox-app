@@ -84,8 +84,8 @@ button.blue {
 }
 
 .principal-container.red {
-  color: darkred;
-  background-color: darkred;
+  color: red;
+  background-color: red;
 }
 
 button.red {
@@ -99,6 +99,42 @@ button.red {
 
 button.brown {
   color: brown;
+}
+
+.principal-container.green {
+  color: green;
+  background-color:green;
+}
+
+button.green {
+  color: green;
+}
+
+.principal-container.salmon {
+  color: salmon;
+  background-color:salmon;
+}
+
+button.salmon {
+  color: salmon;
+}
+
+.principal-container.black {
+  color: black;
+  background-color:black;
+}
+
+button.black {
+  color: black;
+}
+
+.principal-container.orange {
+  color: orange;
+  background-color:orange;
+}
+
+button.orange {
+  color: orange;
 }
 
 .title-general-container h1 {

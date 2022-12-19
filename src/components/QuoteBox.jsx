@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 const QuoteBox = () => {
 
-  const colors = [ 'white', 'blue', 'red', 'brown' ];
+  const colors = [ 'white', 'blue', 'red', 'brown', 'green', 'salmon', 'black', 'orange' ];
 
   const [index, setindex] = useState(Math.floor(Math.random() * quotes.length))
 
